@@ -1,0 +1,51 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jar-box{
+  height: 500px;
+  width: 900px;
+  background-color: cadetblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.jar-box-first{
+  height: 200px;
+  width: 700px;
+  background-color: rgb(90, 106, 107);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.jar-box-first-inner{
+  height: 100px;
+  width: 300px;
+  /* background-color: rgb(90, 107, 95); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.items{
+  height: 200px;
+  width: 230px;
+  background-color: blueviolet;
+  margin: 5px;
+  background-image: url(src/assets/jar.png);
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
